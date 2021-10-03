@@ -50,6 +50,7 @@ btn.addEventListener('click', function(){
         else{
             // console.log("incorrect");
             msg.innerHTML = `Sorry Boss, It's incorrect. plz try again : ${randWords}`;
+            guess.value = "";
         }
     }
 });
